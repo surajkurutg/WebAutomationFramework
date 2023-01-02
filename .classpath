@@ -26,5 +26,11 @@
 	<classpathentry kind="lib" path="C:/Program Files/LOG4J/apache-log4j-1.2.17/log4j-1.2.17.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Dell/Downloads/log4j-api-2.19.0 (1).jar"/>
 	<classpathentry kind="lib" path="C:/Users/Dell/Downloads/log4j-core-2.19.0 (1).jar"/>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

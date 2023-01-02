@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Test Suite">
-<listeners>
+<suite name="Suite">
+  <listeners>
 		<listener class-name="utilities.TestListener" />
 	</listeners>
-
-  <test thread-count="5" name="Login Test">
+  
+  <test thread-count="5" name="My3dmeta">
     <classes>
-      <class name="testscript.T001"/>
-      <class name="testscript.T002"/>
-      <class name="testscript.T003"/>
+      
+      <class name="testscript.T001Signup"/>
+      <class name="testscript.T002_VerifyOtp"/>
+      <class name="testscript.T003_Organisation_Detail"/>
+      
+      
     </classes>
-    
-    
   </test> <!-- Test -->
 </suite> <!-- Suite -->

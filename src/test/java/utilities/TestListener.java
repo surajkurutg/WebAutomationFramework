@@ -47,12 +47,12 @@ public class TestListener extends BaseClass implements ITestListener {
 	        System.out.println("*****Test is failed, screenshot captured******* : " + testName);
 
 	        Date currentDate = new Date();
-	        String fileName = currentDate.toString().replace("o", "RM").replace(":","-");
+	        String fileName = currentDate.toString().replace("new", "my3d").replace(":","-");
 	      
 	      // String fileName = currentDate.toString().replace(" ", "-").replace(":","-");
 	        File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 	        try {
-	            FileUtils.copyFile(file, new File ("C:\\Users\\Dell\\eclipse-workspace\\Automation\\FrameWork\\ss\\"+fileName+"\\hrm.png"));
+	            FileUtils.copyFile(file, new File ("C:\\Users\\Dell\\git\\WEBFRAME_WORK\\FrameWork\\ss\\"+fileName+"\\hrm.png"));
 	        } catch (IOException e) {
 	            throw new RuntimeException(e);
 	        }

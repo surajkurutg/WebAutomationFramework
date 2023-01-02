@@ -19,22 +19,28 @@ WebDriver idriver;
 
 
 
-	@FindBy(name="username")
-	 WebElement txtusername;
+	@FindBy(xpath="//input[@placeholder='First name']")
+	 WebElement txtfirstname ;
 	 
-	 @FindBy(name="password")
-	 WebElement txtpassword;
+	 @FindBy(xpath="//input[@placeholder='Last name']")
+	 WebElement txtLastname;
 
-	 @FindBy(css="button[type='submit']")
+	 @FindBy(xpath="//input[@placeholder='Enter Email']")
+	 WebElement txtemailid;
+	
+	 @FindBy(xpath="//button[normalize-space()='Get started']")
 	 WebElement button;
 	 
-	 public void setUsername (String Uname) {
-		 txtusername.sendKeys(Uname);
+	 public void setUFirstname (String UFirstname) {
+		 txtfirstname.sendKeys(UFirstname);
 		  }
 	 
-	 public void setpassword(String Upass) {
-		 txtpassword.sendKeys(Upass);
+	 public void setULastname(String ULastname) {
+		 txtLastname.sendKeys(ULastname);
 		 }
+	 public void setemailid(String Uemail) {
+		 txtemailid.sendKeys(Uemail);
+	 }
 	 
 	 public void ClickButton() {
 		 button.click();

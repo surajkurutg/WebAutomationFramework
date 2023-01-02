@@ -1,0 +1,3 @@
+ <class name="testscript.T001Signup"/>
+      <class name="testscript.T002_VerifyOtp"/>
+       <class name="testscript.T003_Organisation_Detail"/>

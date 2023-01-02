@@ -27,16 +27,16 @@ public class ResoConfig {
 		return url;
 	}
 	
-	public String getApplicationUsername()
+	public String getApplicationfristname()
 	{
-		String username=pro.getProperty("username");
-		return username;
+		String FirstName=pro.getProperty("FirstName");
+		return FirstName;
 	}
 	
-	public String getApplicationPassword()
+	public String getApplicationlastname()
 	{
-		String password=pro.getProperty("password");
-		return password;
+		String LastName=pro.getProperty("LastName");
+		return LastName;
 	}
 	
 	public String getChromePath()
@@ -45,6 +45,21 @@ public class ResoConfig {
 		return chromepath;
 	}
 	
+	public String getemailid() {
+		String emailidu=pro.getProperty("Email");
+		return emailidu;
+		
+	}
+	
+	public String getORGDetails() {
+		String orgd=pro.getProperty("OrganisationName");
+		return orgd;
+	}
+	
+	public String getMobileNumber() {
+		String ConNo=pro.getProperty("mobileNumber");
+		return ConNo;
+	}
 	
 	
 

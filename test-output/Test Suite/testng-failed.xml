@@ -6,20 +6,13 @@
   </listeners>
   <test thread-count="5" name="Login Test(failed)">
     <classes>
-      <class name="testscript.T003">
+      <class name="testscript.T004_Signin">
         <methods>
-          <include name="punchin"/>
+          <include name="signin"/>
           <include name="Setup"/>
           <include name="TearDown"/>
         </methods>
-      </class> <!-- testscript.T003 -->
-      <class name="testscript.T002">
-        <methods>
-          <include name="Admin"/>
-          <include name="Setup"/>
-          <include name="TearDown"/>
-        </methods>
-      </class> <!-- testscript.T002 -->
+      </class> <!-- testscript.T004_Signin -->
     </classes>
   </test> <!-- Login Test(failed) -->
 </suite> <!-- Failed suite [Test Suite] -->
