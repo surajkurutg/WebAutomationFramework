@@ -34,20 +34,20 @@ public class BaseClass {
 	public static WebDriver driver;
 	//static org.apache.logging.log4j.Logger logger;
 	static Logger log;
-	//public static ChromeOptions options;
-	//public static EdgeOptions edgeoptions;
-	//public static DesiredCapabilities capabilities ;
+	public static ChromeOptions options;
+	public static EdgeOptions edgeoptions;
+	public static DesiredCapabilities capabilities ;
 
   
   @BeforeSuite
   public void Setup() {
-      /*capabilities = new DesiredCapabilities();
+      capabilities = new DesiredCapabilities();
       options = new ChromeOptions();
       options.addArguments("--incognito");
-      capabilities.setCapability(ChromeOptions.CAPABILITY, options);*/
+      capabilities.setCapability(ChromeOptions.CAPABILITY, options);
 	  
 	System.setProperty("webdriver.chrome.driver", "C:\\Users\\Dell\\git\\WEBFRAME_WORK\\FrameWork\\Drivers\\driver12\\chromedriver.exe");
-    driver= new ChromeDriver();
+    driver= new ChromeDriver(options);
 	
 	log=Logger.getLogger("Automation");
 	PropertyConfigurator.configure("C:\\Users\\Dell\\eclipse-workspace\\Automation\\FrameWork\\Resources\\log4j.properties");

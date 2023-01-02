@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testscript.T004_Signin">
+      <class name="testscript.T005_CGoogle">
         <methods>
-          <include name="signin"/>
+          <include name="connectWgoogle"/>
           <include name="Setup"/>
           <include name="TearDown"/>
         </methods>
-      </class> <!-- testscript.T004_Signin -->
+      </class> <!-- testscript.T005_CGoogle -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -10,7 +10,7 @@ public class T002_VerifyOtp extends BaseClass  {
 	
 	log.info("*******User on otp verification page ********");
 	  driver.findElement(By.xpath("//input[@name='otp1']"));
-		Thread.sleep(20000);
+		Thread.sleep(30000);
 		
 		
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
