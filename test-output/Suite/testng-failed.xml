@@ -4,15 +4,15 @@
   <listeners>
     <listener class-name="utilities.TestListener"/>
   </listeners>
-  <test thread-count="5" name="My3dmeta(failed)">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testscript.T003_Organisation_Detail">
+      <class name="testscript.T006_Lybrari">
         <methods>
-          <include name="ORGDetails"/>
+          <include name="Filter"/>
           <include name="Setup"/>
           <include name="TearDown"/>
         </methods>
-      </class> <!-- testscript.T003_Organisation_Detail -->
+      </class> <!-- testscript.T006_Lybrari -->
     </classes>
-  </test> <!-- My3dmeta(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

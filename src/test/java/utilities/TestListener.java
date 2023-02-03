@@ -52,7 +52,7 @@ public class TestListener extends BaseClass implements ITestListener {
 	      // String fileName = currentDate.toString().replace(" ", "-").replace(":","-");
 	        File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 	        try {
-	            FileUtils.copyFile(file, new File ("C:\\Users\\Dell\\git\\WEBFRAME_WORK\\FrameWork\\ss\\"+fileName+"\\hrm.png"));
+	            FileUtils.copyFile(file, new File ("C:\\Users\\Dell\\git\\my3dmeta\\FrameWork\\ss"+fileName+"\\hrm.png"));
 	        } catch (IOException e) {
 	            throw new RuntimeException(e);
 	        }

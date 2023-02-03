@@ -23,7 +23,7 @@ WebDriver idriver;
 	 WebElement txtfirstname ;
 	 
 	 @FindBy(xpath="//input[@placeholder='Last name']")
-	 WebElement txtLastname;
+	 WebElement txtlastname;
 
 	 @FindBy(xpath="//input[@placeholder='Enter Email']")
 	 WebElement txtemailid;
@@ -31,20 +31,16 @@ WebDriver idriver;
 	 @FindBy(xpath="//button[normalize-space()='Get started']")
 	 WebElement button;
 	 
-	 public void setUFirstname (String UFirstname) {
-		 txtfirstname.sendKeys(UFirstname);
+	 public void Login (String UFirstname, String ULastname, String Uemail ) {
+		 txtfirstname.sendKeys("UFirstname");
+		 txtlastname.sendKeys("ULastname");
+		 txtlastname.sendKeys("Uemail");
+		 button.click();
 		  }
 	 
-	 public void setULastname(String ULastname) {
-		 txtLastname.sendKeys(ULastname);
-		 }
-	 public void setemailid(String Uemail) {
-		 txtemailid.sendKeys(Uemail);
-	 }
+	
 	 
-	 public void ClickButton() {
-		 button.click();
-	 }
+	
 
 	
 

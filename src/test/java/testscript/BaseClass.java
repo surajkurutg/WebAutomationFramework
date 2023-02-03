@@ -19,8 +19,9 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.ITestResult;
-
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeClass;
 
 public class BaseClass {
 	ResoConfig rec=new ResoConfig();
@@ -35,7 +36,6 @@ public class BaseClass {
 	//static org.apache.logging.log4j.Logger logger;
 	static Logger log;
 	public static ChromeOptions options;
-	public static EdgeOptions edgeoptions;
 	public static DesiredCapabilities capabilities ;
 
   
@@ -55,7 +55,7 @@ public class BaseClass {
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 	driver.get(baseURL);
-	log.info("*hhhiiiii**");
+	log.info("*Url is open**");
 	
 	
 	
@@ -66,7 +66,7 @@ public class BaseClass {
 
   @AfterSuite
   public void TearDown() {
-	  //driver.close();
+	 // driver.close();
 	  
   }
 
