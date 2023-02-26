@@ -6,13 +6,25 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testscript.T006_Lybrari">
+      <class name="testscript.T006_Librari">
         <methods>
           <include name="Filter"/>
           <include name="Setup"/>
+          <include name="Uploadimage"/>
           <include name="TearDown"/>
+          <include name="RaiseTck"/>
+          <include name="Librarys"/>
+          <include name="AssitViewPage_Control"/>
+          <include name="AssitViewPage_Properties"/>
         </methods>
-      </class> <!-- testscript.T006_Lybrari -->
+      </class> <!-- testscript.T006_Librari -->
+      <class name="testscript.T003_Googlesignin">
+        <methods>
+          <include name="Setup"/>
+          <include name="TearDown"/>
+          <include name="connectWgoogle"/>
+        </methods>
+      </class> <!-- testscript.T003_Googlesignin -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

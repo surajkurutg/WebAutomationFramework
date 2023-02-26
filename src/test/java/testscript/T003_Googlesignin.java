@@ -22,7 +22,7 @@ public class T003_Googlesignin extends BaseClass{
 	    driver.findElement(By.xpath("//input[@name='password']")).sendKeys("Satyam4741@");
 	    Thread.sleep(2000);
 	    driver.findElement(By.xpath("//span[text()='Next']")).click();
-	    
+	     
 	    Thread.sleep(2000);
 	   String src= driver.getCurrentUrl();
 	   log.info("["+src+"]");

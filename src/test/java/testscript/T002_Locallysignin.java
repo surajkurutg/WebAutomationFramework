@@ -16,7 +16,7 @@ public class T002_Locallysignin extends BaseClass {
 	Thread.sleep(5000);
 	
 	WebElement emailid=driver.findElement(By.xpath("//input[@type='email']"));
-	emailid.sendKeys(emaild);
+	emailid.sendKeys("satyam.m@antino.io");
 	Thread.sleep(5000);
 	
 	driver.findElement(By.xpath("//button[@type='submit']")).click();
@@ -24,12 +24,12 @@ public class T002_Locallysignin extends BaseClass {
 	log.info("*user on signIN otp verification page*");
 	  
 	driver.findElement(By.xpath("//input[@name='otp1']"));
-    Thread.sleep(30000);
+    Thread.sleep(20000);
 		
 	driver.findElement(By.xpath("//button[@type='submit']")).click();
 	Thread.sleep(5000);
 	log.info("*user on dashboard*");
-	
+	Thread.sleep(5000);
 	String src=driver.getCurrentUrl();
 	log.info("["+src+"]");
 	
