@@ -1,35 +1,11 @@
-2023-02-21 09:52:37,979  INFO [main] Automation:61 - *Url is open**
-2023-02-21 09:52:38,225  INFO [main] Automation:13 - *****User on Signin Page*****
-2023-02-21 09:52:50,828  INFO [main] Automation:28 - [https://dev.my3dmeta.com/dashboard?access_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsidXNlcl9pZCI6ImJmYjM4OWZkLTg3MDYtNGM4ZC05MjNjLTRiZTI0MzY4MWE4MCIsImVtYWlsIjoic2F0eWFtQG15M2RtZXRhLmNvbSIsIm9yZ2FuaXphdGlvbl9pZCI6Ijk1ZDJjZWM4LWQ0ZjEtNDdmMy1iNTI4LTg0NzdmZWEyNTk3YiIsInJvbGVfbmFtZSI6bnVsbCwiYWN0aW9uX3Jlc291cmNlX2RpY3QiOnsiZmluaXNoZWRfc2lnbl91cF9hY2Nlc3NfdG9rZW4iOlsic2F0eWFtQG15M2RtZXRhLmNvbSJdLCJjb21wbGV0ZV9zaWduX3VwIjpbInNhdHlhbUBteTNkbWV0YS5jb20iLCJzYXR5YW1AbXkzZG1ldGEuY29tIl0sIm1ybjphZG1pbiI6WyJtcm46b3JnOjk1ZDJjZWM4LWQ0ZjEtNDdmMy1iNTI4LTg0NzdmZWEyNTk3YjouKiJdfX0sImlhdCI6MTY3Njk1MzM1OC41Mzc2MjM0LCJleHAiOjE2NzY5NjQxNjh9.U9FxdRoZbvrX5CyKmwySLeKAYIoZO8z_ss_0oVQTrGkGYA_qQ0KwGjy8fx27ss0cyC-w9bjFAeIVeYYntdG4gZk9E7eojrZuSVjHmSsGCfHfyDuwlV5nr-B2CG6r1_-y1NeaUkO-yckqd7jUNCxmLdLzipF1biHQqA0wYpI_IgEcbYn7Ae00brWfMf5OXkbQ7FYc8zJCa0mJKWzkm_-ffzaMvfaG-b6QiPm5vwkU08tAtW_No0tsX870JgB-U7_dXruQMgsyPItie4KdvLDGEJ8nQ66v1WA4APtncJThrI-Q6IyC45oLCVFvZxXWuNQd8eQ0wENoBmxno1G3TYlFsM3a1VxzTmpBKSYiOOxthEjU7C7g_FWJShAcR0UGklKAKuOtuLw--ZRtm4HpNsEOsSUGQkKSV2_awDcdqzcR-bCgCN2VVxCxkD-dU9T11Bz1p_Fl76QWdT4FLFn1eoMjxlBJa6vNEjMfXB5Z9M2vL9NaQmLtHAOOzjqUMaQQzMG2&Email=satyam@my3dmeta.com&refresh_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsidXNlcl9pZCI6ImJmYjM4OWZkLTg3MDYtNGM4ZC05MjNjLTRiZTI0MzY4MWE4MCIsImVtYWlsIjoic2F0eWFtQG15M2RtZXRhLmNvbSIsIm9yZ2FuaXphdGlvbl9pZCI6Ijk1ZDJjZWM4LWQ0ZjEtNDdmMy1iNTI4LTg0NzdmZWEyNTk3YiIsInJvbGVfbmFtZSI6bnVsbCwiYWN0aW9uX3Jlc291cmNlX2RpY3QiOnsibXJuOnJlZnJlc2hfdG9rZW5fbG9naW4iOlsic2F0eWFtQG15M2RtZXRhLmNvbSJdfX0sImlhdCI6MTY3Njk1MzM1OC41NDE1MDE1LCJleHAiOjE2Nzk1NDUzNjh9.jNzVX-hw_SaSH5f-h9kNvA-Z2WMAzqo1-L_5m1CzpNdOBpJw3oAXUBnQixpJ0PjfVjEifzTIQeniNjTC2_PeuDh6i-ovGN9SwCWlV31Nj4nHaAh3rQjuKpqxMCgJ-6ujsxBKdT_qCQ5pnDLD4nJCf7_r6UsehsMYyfQqUMXodaEDUU7UJxvTxSSiOrNVs1stnj911yRHozaPkhHCPrDZ1CP4PJQ6G-a-A9h2dELblVq6dkyfm7OCSqr-iD7_eO-tJldqIjQSNOXWKMTaqS7JGAFGYwF1ZsRnXyu81iQfyCWYkq5cdUPMBOoEAKg0ftiv653G21PDtGnqLmshjjVFcC4QhX5CwOQTOMiDMonZZcZ5xpGLO7OT_UbsIqtTBrQHAjCvClYmFFeeLtJh_s0NSthpuX5FCo7wD1_2Z-O41KBfaObEe1Cpu_NstBcrZsqrq5zrZ2GfNG8apbXU9S5VW75Rr4_OmS0mjw1yMhueV2zsKQQr-rQ1eMX_NKibI__P]
-2023-02-21 09:52:50,828  INFO [main] Automation:30 - *user login successfully*
-2023-02-21 09:53:26,149  INFO [main] Automation:41 - []
-2023-02-21 09:53:38,265  INFO [main] Automation:75 - Applied filters :
-Brown Jacket
-Futuristic Jacket
-Brown Jacket1
-Futuristic Jacket2
-Brown Jacket3
-Futuristic Jacket4
-Brown Jacket5
-Futuristic Jacket6
-Brown Jacket7
-Futuristic Jacket8
-Brown Jacket9
-Futuristic Jacket0
-.GLB
-.FBX
-.OBJ
-.PNG
-.JPG
-.MAT
-.PAT
-.TXT
-All
-Cap
-Hat
-Headbands1
-Cap2
-Hat3
-Headbands4
-2023-02-21 09:53:44,400  INFO [main] Automation:89 - [https://dev.my3dmeta.com/library]
-2023-02-21 09:53:57,191  INFO [main] Automation:130 - sdsdshdhdwd
+2023-03-17 14:36:31,789  INFO [main] Automation:62 - *Url is open**
+2023-03-17 14:36:31,835  INFO [main] Automation:15 - *****User on Signin Page*****
+2023-03-17 14:36:42,136  INFO [main] Automation:30 - [https://accounts.google.com/signin/v2/challenge/pwd?response_type=code&client_id=338582863608-ntme8dk7eu0o060o09g253q3jqs2qkur.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fdev.my3dmeta.com%2Fapi%2Fgauth%2Ftoken&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&state=EmJ7FFMca50tcPmghd9N0y4Kz4hfnx&service=lso&o2v=2&flowName=GeneralOAuthFlow&cid=2&navigationDirection=forward&TL=ALbfvL3Wh04JQS1SFaOruRUAtLTbeKIY0P5w177WFy7y2qsN8Pe4pKYn4OkOVk6M]
+2023-03-17 14:36:42,136  INFO [main] Automation:32 - *user login successfully*
+2023-03-17 14:37:00,411  INFO [main] Automation:27 - Profile
+Organisation
+Billing
+Subscriptions
+Support
+2023-03-17 14:37:09,766  INFO [main] Automation:64 - User Profile Edited successfully
+2023-03-17 14:37:18,917  INFO [main] Automation:109 - Organization Profile Edited successfully

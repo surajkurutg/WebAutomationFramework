@@ -4,6 +4,7 @@ package testscript;
 
 import org.testng.annotations.BeforeSuite;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import utilities.ResoConfig;
 
 import java.time.Duration;
@@ -48,9 +49,9 @@ public class BaseClass {
       options = new ChromeOptions();
       options.addArguments("--incognito");
       capabilities.setCapability(ChromeOptions.CAPABILITY, options);*/
-	  
-	System.setProperty("webdriver.chrome.driver", "C:\\Users\\Dell\\git\\WEBFRAME_WORK\\FrameWork\\Drivers\\driver12\\chromedriver.exe");
-    driver= new ChromeDriver();
+	  WebDriverManager.edgedriver().setup();
+	//System.setProperty("webdriver.chrome.driver", "C:\\Users\\Dell\\git\\WEBFRAME_WORK\\FrameWork\\Drivers\\driver12\\chromedriver.exe");
+    driver= new EdgeDriver();
 	
 	log=Logger.getLogger("Automation");
 	PropertyConfigurator.configure("C:\\Users\\Dell\\git\\my3dmeta\\FrameWork\\Resources\\log4j.properties");

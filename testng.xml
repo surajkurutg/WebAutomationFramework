@@ -2,15 +2,12 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 
-<listeners>
-<listener class-name="utilities.TestListener"></listener>
-</listeners>
-  <test thread-count="5" name="Test">
+  <test thread-count="5" name="MY3DMETA">
     <classes>
       
-      <class name="testscript.T003_Googlesignin"/>
-     
-      <class name="testscript.T006_Librari"/>
+      <class name="testscript.T3googlesign"/>
+      <class name="testscript.T9profile"/>
+      
     </classes>
-  </test> <!-- Test -->
+  </test> <!-- MY3DMETA -->
 </suite> <!-- Suite -->
