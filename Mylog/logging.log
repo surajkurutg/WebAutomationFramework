@@ -1,11 +1,1 @@
-2023-03-17 14:36:31,789  INFO [main] Automation:62 - *Url is open**
-2023-03-17 14:36:31,835  INFO [main] Automation:15 - *****User on Signin Page*****
-2023-03-17 14:36:42,136  INFO [main] Automation:30 - [https://accounts.google.com/signin/v2/challenge/pwd?response_type=code&client_id=338582863608-ntme8dk7eu0o060o09g253q3jqs2qkur.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fdev.my3dmeta.com%2Fapi%2Fgauth%2Ftoken&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&state=EmJ7FFMca50tcPmghd9N0y4Kz4hfnx&service=lso&o2v=2&flowName=GeneralOAuthFlow&cid=2&navigationDirection=forward&TL=ALbfvL3Wh04JQS1SFaOruRUAtLTbeKIY0P5w177WFy7y2qsN8Pe4pKYn4OkOVk6M]
-2023-03-17 14:36:42,136  INFO [main] Automation:32 - *user login successfully*
-2023-03-17 14:37:00,411  INFO [main] Automation:27 - Profile
-Organisation
-Billing
-Subscriptions
-Support
-2023-03-17 14:37:09,766  INFO [main] Automation:64 - User Profile Edited successfully
-2023-03-17 14:37:18,917  INFO [main] Automation:109 - Organization Profile Edited successfully
+2023-05-18 12:14:42,842  INFO [main] Automation:60 - *Url is open**

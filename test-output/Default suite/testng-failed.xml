@@ -3,16 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testscript.T9_Profile">
+      <class name="testscript.practice">
         <methods>
-          <include name="AddProfile"/>
           <include name="Setup"/>
-          <include name="Profile"/>
           <include name="TearDown"/>
-          <include name="Billing"/>
-          <include name="Organisation"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- testscript.T9_Profile -->
+      </class> <!-- testscript.practice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

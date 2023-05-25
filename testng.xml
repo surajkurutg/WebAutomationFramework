@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
+	<listeners>
+		<listener class-name="utilities.TestListener"></listener>
+	</listeners>
 
   <test thread-count="5" name="MY3DMETA">
     <classes>
       
-      <class name="testscript.T3googlesign"/>
-      <class name="testscript.T9profile"/>
-      
+      <class name="testscript.TC_001DD"/>
+      <class name="testscript.TC_002DD"/>
+      <class name="testscript.TC_004DD"/>
     </classes>
   </test> <!-- MY3DMETA -->
 </suite> <!-- Suite -->

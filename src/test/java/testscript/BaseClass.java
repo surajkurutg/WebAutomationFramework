@@ -45,53 +45,23 @@ public class BaseClass {
   
   @BeforeSuite
   public void Setup() {
-     /* capabilities = new DesiredCapabilities();
-      options = new ChromeOptions();
-      options.addArguments("--incognito");
-      capabilities.setCapability(ChromeOptions.CAPABILITY, options);*/
-	  WebDriverManager.edgedriver().setup();
-	//System.setProperty("webdriver.chrome.driver", "C:\\Users\\Dell\\git\\WEBFRAME_WORK\\FrameWork\\Drivers\\driver12\\chromedriver.exe");
-    driver= new EdgeDriver();
-	
+      
+	 WebDriverManager.chromedriver().setup();
+     driver= new ChromeDriver(); 
 	log=Logger.getLogger("Automation");
-	PropertyConfigurator.configure("C:\\Users\\Dell\\git\\my3dmeta\\FrameWork\\Resources\\log4j.properties");
+	PropertyConfigurator.configure("C:\\Users\\SurajKurutge\\eclipse-workspace\\Testing\\Resources\\log4j.properties");
 	
 	driver.manage().window().maximize();
-	driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+	 
 	driver.get(baseURL);
 	log.info("*Url is open**");	
   }
+  
 
   @AfterSuite
   public void TearDown() {
-	 // driver.close();
-	  }
-  
-  public WebElement find(String type,String locator){
-	  driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-	  WebElement we = null;
-	  if(type.equalsIgnoreCase("xpath")){
-	    we = driver.findElement(By.xpath(locator));
-	  }
-	  if(type.equalsIgnoreCase("id")){
-	    we = driver.findElement(By.id(locator));
+	  driver.close();
 	  } 
-	  // and so on...
-	return we;
-	 }
-  
-  public List<WebElement> finds(String type,String locator){
-	  driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-	  List<WebElement> elms = null;
-	  if(type.equalsIgnoreCase("xpath")){
-	    elms = driver.findElements(By.xpath(locator));
-	  }
-	  if(type.equalsIgnoreCase("id")){
-	    elms= driver.findElements(By.id(locator));
-	  } 
-	  // and so on...
-	return elms;
-	 }
-  
   
 }

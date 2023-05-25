@@ -31,12 +31,7 @@ WebDriver idriver;
 	 @FindBy(xpath="//button[normalize-space()='Get started']")
 	 WebElement button;
 	 
-	 public void Login (String UFirstname, String ULastname, String Uemail ) {
-		 txtfirstname.sendKeys("UFirstname");
-		 txtlastname.sendKeys("ULastname");
-		 txtlastname.sendKeys("Uemail");
-		 button.click();
-		  }
+	 
 	 
 	
 	 
